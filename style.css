@@ -1,172 +1,33 @@
-body{	
-	background-image: url("https://thumbs.gfycat.com/SoreShorttermIslandcanary-max-1mb.gif"),
-	url("https://img-hws.y8.com/cloud/y8-thumbs/26108/video_thumbnail.jpg");
-	
-}
-h1 {
-	text-align: center;
-	font-family: 'Roboto', sans-serif;
+body{
+    background: url("https://images.pexels.com/photos/1788/vintage-music-sound-music-player.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");    
+    font-family: 'Anton', sans-serif;
 }
 
-.robots {
-
+#welcome{    
+    margin-top: 250px;
 }
 
-.head, 
-.left_arm, 
-.torso, 
-.right_arm, 
-.left_leg, 
-.right_leg {
-	 background-color: #5f93e8;
+.big{
+    font-size: 150px;
 }
 
-.head { 
-	width: 200px; 
-	margin: 0 auto; 
-	height: 150px; 
-	border-radius: 200px 200px 0 0; 
-	margin-bottom: 10px;	
+.small{
+    font-size:80px;
+    margin-top: -70px;
 }
 
-.head:hover {
-	width: 240px;
-	transition: 1s ease;
+.btn-primary{    
+    width: 200px;
+    height: 50px;
+    background-color: rgb(0, 66, 52);
+    border: 0 none;
+    letter-spacing: 5px;
 }
 
-.lights{
-	width: 1500px;
-	margin: 0 auto;
+.btn-primary:hover{    
+    background-color: rgb(50, 126, 109);
 }
 
-.headphones img{
-	width: 390px;
-	height: 185px;
-	position: relative;
-	top: -40px;
-	right: 95px;
-}
-
-.dj{
-	height: 400px;
-	position: relative;
-	top: -250px;
-	z-index: -1;
-}
-
-.dj img{
-	position: relative;
-    bottom: 200px;
-    width: 1000px;
-    height: 550px;
-    display: block;
-	margin: 0 auto;
-}
-
-.eyes {
-	display: flex;
-}
-
-.upper_body { 
-	width: 300px; 
-	height: 150px;
-	display: flex;
-	margin: 0 auto;
-		
-} 
-
-.left_arm, .right_arm { 
-	width: 40px; 
-	height: 125px;
-	border-radius: 100px;
-	position: relative;
-	bottom: 60px;
-} 
-
-.left_arm {
-	top: -90px;
-	left: 50px;
-	margin-right: 10px;
-	-ms-transform: rotate(-60deg); /* IE 9 */
-    -webkit-transform: rotate(-60deg); /* Safari 3-8 */
-	transform: rotate(-60deg);
-	transform-origin: bottom;
-  	transition: transform 1s;
-}
-
-.left_arm:hover{		
-	transform: rotate(-110deg);
-}
-
-.right_arm {
-	top: -90px;
-	left: -50px;	
-	margin-left: 10px;
-	-ms-transform: rotate(50deg); /* IE 9 */
-    -webkit-transform: rotate(50deg); /* Safari 3-8 */
-	transform: rotate(60deg);
-	transform-origin: bottom;
-  	transition: transform 1s;
-}
-
-.right_arm:hover{		
-	transform: rotate(110deg);
-}
-
-.torso { 
-	width: 200px; 
-	height: 140px;
-	/*border-radius: 0 0 50px 50px;*/
-} 
-
-.lower_body { 
-	width: 200px; 
-	height: 200px;
-	/* This is another useful property. Hmm what do you think it does?*/
-	margin: 0 auto;
-	display: flex;
-
-} 
-
-.left_leg, .right_leg { 
-	width: 40px; 
-	height: 120px;
-	border-radius: 0 0 100px 100px; 
-} 
-
-.left_leg { 
-	margin-left: 45px; 
-} 
-
-.left_leg:hover {
-	-webkit-transform: rotate(20deg);
-    -moz-transform: rotate(20deg);
-    -o-transform: rotate(20deg);
-    -ms-transform: rotate(20deg);
-    transform: rotate(20deg);
-}
-
-.right_leg { 
-	margin-left: 30px; 
-}
-
-.left_eye, .right_eye { 
-	width: 20px; 
-	height: 20px; 
-	border-radius: 15px; 
-	background-color: white;  
-} 
-
-.left_eye { 
-	/* These properties are new and you haven't encountered
-	in this course. Check out CSS Tricks to see what it does! */
-	position: relative; 
-	top: 100px; 
-	left: 40px;
-} 
-
-.right_eye { 
-	position: relative; 
-	top: 100px; 
-	left: 120px;
+.dimensionsform{
+    margin: -90px 0 0 710px;
 }
